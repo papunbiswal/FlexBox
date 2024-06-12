@@ -1,0 +1,87 @@
+
+.flex-container {
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .flex-container > div {
+    margin: 10px;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    height: 300px;
+    margin: 10px;
+  }
+  
+  .flex-container > div {
+    margin: 10px;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: lightgreen;
+    min-height: 200px;
+    padding: 20px;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightcoral;
+  }
+  
+  .flex-container > div {
+    border: 1px solid black;
+    height: 100px;
+  }
+  .flex-container {
+    display: flex;
+    align-items: center;
+    background-color: lightyellow;
+    height: 300px;
+    padding: 15px;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightsteelblue;
+  }
+  
+  .flex-container > div {
+    width: 120px;
+    margin: 10px;
+  }
+  .flex-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .nested-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: lightpink;
+  }
+  .flex-container {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .flex-container > div {
+    height: 100px;
+    background-color: lightblue;
+  }
+  
+  .flex-container > div:nth-child(2) {
+    flex-grow: 2;
+  }
+  .flex-container {
+    display: flex;
+  }
+  
+  .flex-container > div {
+    width: 100px;
+  }
